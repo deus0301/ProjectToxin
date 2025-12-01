@@ -128,13 +128,13 @@ Experience three distinct labs:
 
 This is a solo indie project currently in development. Interested in following development or providing feedback?
 
-- Check out devlogs on [platform links]
+- Check out devlogs on [[platform links]](https://x.com/Deus0301)
 - Wishlist on [Steam page - coming soon]
 
 ## 📞 Contact
 
 - Developer: Apoorv Singhal
-- Email: apoorv0301@gmail.com
+- Email: asinghal1326@gmail.com
 
 ---
 
