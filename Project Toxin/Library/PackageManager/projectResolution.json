@@ -1,12 +1,12 @@
 {
   "context": {
     "projectPath": "D:/Games/Projects/ProjectToxin/Project Toxin/Packages",
-    "unityVersion": "6000.0.54f1"
+    "unityVersion": "6000.2.8f1"
   },
   "inputs": [
     "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Packages\\manifest.json",
     "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Packages\\packages-lock.json",
-    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.cinemachine@3.1.4": {
@@ -58,31 +58,31 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.render-pipelines.high-definition@17.0.4": {
+    "com.unity.render-pipelines.high-definition@17.2.0": {
       "name": "com.unity.render-pipelines.high-definition",
       "displayName": "High Definition Render Pipeline",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@60d72fd960f4",
-      "fingerprint": "60d72fd960f4ae4ccd1fb119e63a216aac7d6228",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@ef661353d427",
+      "fingerprint": "ef661353d42710e9e9ad01bfbf32e4931c55df9d",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.7": {
+    "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
-      "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.8.7",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
+      "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.9",
       "source": "registry",
       "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.ugui@529b01454a55",
-      "fingerprint": "529b01454a5505bdf629ef2d4df32fecada24ec3",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.ugui@8d7885e629a4",
+      "fingerprint": "8d7885e629a4b7f3e0da1fac0e11357570b62bfe",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -101,7 +101,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -109,7 +109,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -117,7 +117,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -125,7 +125,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -133,7 +133,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -141,7 +141,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -149,7 +149,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -157,7 +157,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -165,7 +165,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -173,7 +173,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -181,7 +181,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -189,7 +189,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -197,7 +197,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -205,7 +205,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -213,7 +213,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -221,7 +221,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -229,7 +229,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -237,7 +237,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -245,7 +245,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -253,7 +253,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -261,7 +261,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -269,7 +269,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -277,7 +277,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -285,7 +285,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -293,7 +293,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -301,7 +301,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -309,7 +309,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -317,7 +317,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -325,7 +325,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -333,7 +333,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -341,7 +341,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -349,7 +349,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -357,7 +357,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -365,48 +365,48 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.54f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.render-pipelines.core@17.0.4": {
+    "com.unity.render-pipelines.core@17.2.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.render-pipelines.core@49e016681e2a",
-      "fingerprint": "49e016681e2af1f1357425e19c4fad47e77c8b51",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.render-pipelines.core@60896ea171dc",
+      "fingerprint": "60896ea171dc0049b26431ae9ee0874b75195820",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.shadergraph@17.0.4": {
+    "com.unity.shadergraph@17.2.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.shadergraph@8939c506bcb4",
-      "fingerprint": "8939c506bcb4e6cb9edc99eab7cbd4a46d620f38",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.shadergraph@2c9221ffedf4",
+      "fingerprint": "2c9221ffedf48eb0ff60df53ff79906f97dc3713",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualeffectgraph@17.0.4": {
+    "com.unity.visualeffectgraph@17.2.0": {
       "name": "com.unity.visualeffectgraph",
       "displayName": "Visual Effect Graph",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.visualeffectgraph@ec7212f5004c",
-      "fingerprint": "ec7212f5004c7dc2bfda863fa4721a8b449feba8",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.visualeffectgraph@7e0bedf605eb",
+      "fingerprint": "7e0bedf605ebb258cbf770a29d447c803062b019",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.render-pipelines.high-definition-config@17.0.4": {
+    "com.unity.render-pipelines.high-definition-config@17.2.0": {
       "name": "com.unity.render-pipelines.high-definition-config",
       "displayName": "High Definition Render Pipeline Config",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.render-pipelines.high-definition-config@e9a245347a58",
-      "fingerprint": "e9a245347a580c70b4ffa1299949b7b8f595780d",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.4",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.render-pipelines.high-definition-config@f7c893e8c254",
+      "fingerprint": "f7c893e8c254a6aa8b789a59d79275671ed7d3b9",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "17.2.0",
       "source": "builtin",
       "testable": false
     },
@@ -420,13 +420,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.36": {
+    "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
-      "fingerprint": "4d374c7eb6db6907c7e6925e3086c3c73f926e13",
-      "editorCompatibility": "2019.4.6f1",
-      "version": "3.0.36",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+      "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.0.38",
       "source": "registry",
       "testable": false
     },
@@ -450,13 +450,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.test-framework@1.5.1": {
+    "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.test-framework@dfdbd02f5918",
-      "fingerprint": "dfdbd02f59180baa5668370b8f71f6fbeaa3b032",
-      "editorCompatibility": "2022.3.0a1",
-      "version": "1.5.1",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.test-framework@d97b7cd61ded",
+      "fingerprint": "d97b7cd61dedd05f0fbaa425a40bd39d098f5cfc",
+      "editorCompatibility": "6000.0.44f1",
+      "version": "1.6.0",
       "source": "builtin",
       "testable": false
     },
@@ -470,13 +470,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.splines@2.8.1": {
+    "com.unity.splines@2.8.2": {
       "name": "com.unity.splines",
       "displayName": "Splines",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.splines@b909627b5095",
-      "fingerprint": "b909627b5095061d48761597bbb8384d6f04e510",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.splines@1cb7d86fc7ff",
+      "fingerprint": "1cb7d86fc7ffee63824ca302b2b8982178eeea83",
       "editorCompatibility": "2022.3.0a1",
-      "version": "2.8.1",
+      "version": "2.8.2",
       "source": "registry",
       "testable": false
     },
@@ -490,13 +490,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.burst@1.8.23": {
+    "com.unity.burst@1.8.25": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
-      "fingerprint": "6aff1dd08a0c2f92ddb7f56ec033a5cb88967056",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.burst@1df634d836b8",
+      "fingerprint": "1df634d836b8106f13dc82401a91b336d615a874",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.8.23",
+      "version": "1.8.25",
       "source": "registry",
       "testable": false
     },
@@ -510,21 +510,21 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.collections@2.5.1": {
+    "com.unity.collections@2.5.7": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.collections@56bff8827a7e",
-      "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
-      "editorCompatibility": "2022.3.11f1",
-      "version": "2.5.1",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.collections@d49facba0036",
+      "fingerprint": "d49facba0036aa0e1508296262f9d93b44d1ab3b",
+      "editorCompatibility": "2022.3.20f1",
+      "version": "2.5.7",
       "source": "registry",
       "testable": false
     },
     "com.unity.rendering.light-transport@1.0.1": {
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.rendering.light-transport@9bd588f963c0",
-      "fingerprint": "9bd588f963c0ca6105f0978f9cfc66444032a804",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.rendering.light-transport@2c9279f90d7c",
+      "fingerprint": "2c9279f90d7c8dfb6e76e3f90b6b3be1cafabfbc",
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin",
@@ -550,23 +550,23 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.nuget.mono-cecil@1.11.4": {
+    "com.unity.nuget.mono-cecil@1.11.5": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d6f9955a5d5f",
-      "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
-      "editorCompatibility": "2018.4.0a1",
-      "version": "1.11.4",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb",
+      "fingerprint": "d78732e851eb42273c8e4d97993d3a94b207e570",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.11.5",
       "source": "registry",
       "testable": false
     },
-    "com.unity.test-framework.performance@3.1.0": {
+    "com.unity.test-framework.performance@3.2.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
-      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
-      "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
+      "resolvedPath": "D:\\Games\\Projects\\ProjectToxin\\Project Toxin\\Library\\PackageCache\\com.unity.test-framework.performance@0840f58e4562",
+      "fingerprint": "0840f58e45624f7677679a0f8b6a5137689e607f",
       "editorCompatibility": "2020.3.0a1",
-      "version": "3.1.0",
+      "version": "3.2.0",
       "source": "registry",
       "testable": false
     }

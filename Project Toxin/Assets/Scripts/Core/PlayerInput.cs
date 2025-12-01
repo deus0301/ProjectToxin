@@ -10,6 +10,8 @@ namespace Toxin.Core
         private InputAction _move;
         private InputAction _jump;
         private InputAction _sprint;
+        private InputAction _save;
+        private InputAction _load;
 
         public FrameInput frame;
 
@@ -20,6 +22,8 @@ namespace Toxin.Core
             _move = inputActions.Player.Move;
             _jump = inputActions.Player.Jump;
             _sprint = inputActions.Player.Sprint;
+            _save = inputActions.Player.Save;
+            _load = inputActions.Player.Load;
             
         }
         
@@ -45,6 +49,8 @@ namespace Toxin.Core
                 Move = _move.ReadValue<Vector2>(),
                 Jump = _jump.WasPressedThisFrame(),
                 Sprint = _sprint.IsPressed(),
+                Save = _save.WasPressedThisFrame(),
+                Load = _load.WasPressedThisFrame(),
             };
         }
     }
@@ -53,5 +59,7 @@ namespace Toxin.Core
         public Vector2 Move;
         public bool Jump;
         public bool Sprint;
+        public bool Save;
+        public bool Load;
     }
 }
