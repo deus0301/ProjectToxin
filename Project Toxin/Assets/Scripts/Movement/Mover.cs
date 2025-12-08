@@ -1,5 +1,5 @@
-using Toxin.Saving;
 using Toxin.Control;
+using Toxin.Saving;
 using UnityEngine;
 
 namespace Toxin.Movement
@@ -96,7 +96,6 @@ namespace Toxin.Movement
                 Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
             }
         }
-
         public object CaptureState()
         {
             return new SerializableVector3(transform.position); 
@@ -110,15 +109,15 @@ namespace Toxin.Movement
                 return;
             }
 
-            var controller = GetComponent<PlayerController>();
-            if (controller != null)
-                controller.enabled = false;
+            PlayerController playerController = GetComponent<PlayerController>();
+            if (playerController != null)
+                playerController.enabled = false;
 
             SerializableVector3 position = (SerializableVector3)state;
             transform.position = position.ToVector3();
 
-            if (controller != null)
-                controller.enabled = true;
+            if (playerController != null)
+                playerController.enabled = true;
         }
     }
 }

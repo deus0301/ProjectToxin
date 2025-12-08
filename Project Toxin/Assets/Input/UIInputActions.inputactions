@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "UIInputActions",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "1b9cded3-9db8-4c02-8fa9-606d0cc23b84",
+            "actions": [
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "281b30dc-4c11-4d4b-844b-299a2afec0c6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "24a614f3-c7b3-4890-bc1a-4cea5a1c8762",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

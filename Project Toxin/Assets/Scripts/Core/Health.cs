@@ -1,8 +1,9 @@
 using System.Collections;
+using Toxin.Saving;
 using UnityEngine;
 namespace Toxin.Core
 {
-    public class Health : MonoBehaviour
+    public class Health : MonoBehaviour, ISaveable
     {
         [SerializeField] private float health = 100f;
 
@@ -17,7 +18,7 @@ namespace Toxin.Core
 
         void Update()
         {
-            if (health <= 0)
+            if (health <= 0 || transform.position.y <= -2)
             {
                 Die();
             }
@@ -40,10 +41,26 @@ namespace Toxin.Core
 
         IEnumerator DeathRoutine()
         {
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(1f);
             print("Lmao mrityu");
+            yield return SavingSystem.Instance.LoadLastScene(SavingSystem.defaultSaveFile);
+
         }
 
         public bool IsDead() => isDead;
+
+        public object CaptureState()
+        {
+            return health;
+        }
+
+        public void RestoreState(object state)
+        {
+            health = (float)state;
+            if (health <= 0)
+            {
+                Die();
+            }
+        }
     }
 }

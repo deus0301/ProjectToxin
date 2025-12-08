@@ -8,13 +8,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2187246489400581147, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+      propertyPath: customID
+      value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: -2187246489400581147, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+      propertyPath: uniqueID
+      value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: -2187246489400581147, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+      propertyPath: useCustomID
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 6.46
       objectReference: {fileID: 0}
     - target: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_LocalPosition.z

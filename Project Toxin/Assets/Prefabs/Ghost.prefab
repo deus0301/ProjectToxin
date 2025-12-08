@@ -1,5 +1,75 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7232917521159939799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5938956726568324653}
+  - component: {fileID: 7711947180684271968}
+  - component: {fileID: 8789232823870744901}
+  m_Layer: 0
+  m_Name: DialogueActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5938956726568324653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7232917521159939799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1999856608775409426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7711947180684271968
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7232917521159939799}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8789232823870744901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7232917521159939799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80faee00072c3f439af9aeac6afcffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Toxin.Dialogue.DialogueActivator
+  dialogueLines:
+  - Welcome to Project Toxin.
+  - This is a prototype for dialogue system.
+  - Good luck exploring!
 --- !u!1001 &333047491595784294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8,6 +78,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2187246489400581147, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+      propertyPath: uniqueID
+      value: d4fc3682-e0e9-4e7c-bc68-c17f538647e9
+      objectReference: {fileID: 0}
     - target: {fileID: 743911589643485374, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_Avatar
       value: 
@@ -18,15 +92,15 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 895326b141ec7034898e285177530bf8, type: 2}
     - target: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -11.77
       objectReference: {fileID: 0}
     - target: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -10.18
       objectReference: {fileID: 0}
     - target: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_LocalRotation.w
@@ -56,6 +130,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2639936741663935935, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 7804811021022842434}
     - target: {fileID: 2764474857967422121, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       propertyPath: m_Name
       value: Ghost
@@ -69,17 +147,26 @@ PrefabInstance:
     - {fileID: 5197974277394150633, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
     - {fileID: 5589211623441751207, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
     - {fileID: 7199284166909635555, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+    - {fileID: 7427924812595615642, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
     m_RemovedGameObjects:
     - {fileID: 1145482876493164901, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1519577019625580950}
+    - targetCorrespondingSourceObject: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5938956726568324653}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
 --- !u!4 &1999856608775409426 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2260756507247271796, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
+  m_PrefabInstance: {fileID: 333047491595784294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7804811021022842434 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7552389963354480164, guid: 978d22397e8b7c94c9e498a6316ad043, type: 3}
   m_PrefabInstance: {fileID: 333047491595784294}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1340988858004426365

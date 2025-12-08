@@ -69,6 +69,7 @@ namespace Toxin.Control
 
         public void SetControlEnabled(bool enabled)
         {
+            print("PlayerController set to: " + enabled);
             this.enabled = enabled;
             mover.SetEnabled(enabled);
         }

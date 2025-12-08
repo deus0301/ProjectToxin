@@ -12,6 +12,7 @@ namespace Toxin.Animation
         private static readonly int SpeedHash = Animator.StringToHash("Speed");
         private static readonly int JumpHash = Animator.StringToHash("Jump");
         private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
+        private static readonly int TalkHash = Animator.StringToHash("Talk");
 
         void Awake()
         {
@@ -26,6 +27,11 @@ namespace Toxin.Animation
         public void TriggerJump()
         {
             animator.SetTrigger(JumpHash);
+        }
+
+        public void TriggerTalk()
+        {
+            animator.SetTrigger(TalkHash);
         }
 
         public void UpdateGrounded(bool isGrounded)

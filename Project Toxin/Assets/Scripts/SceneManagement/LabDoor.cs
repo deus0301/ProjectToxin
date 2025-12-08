@@ -26,9 +26,10 @@ namespace Toxin.SceneManagement
         {
             DontDestroyOnLoad(gameObject);
 
+            yield return StartCoroutine(Fader.Instance.FadeOut(loadTime/2));
+
             SavingSystem.Instance.Save(SavingSystem.defaultSaveFile);
 
-            yield return StartCoroutine(Fader.Instance.FadeOut(loadTime/2));
             yield return SceneManager.LoadSceneAsync(loadIndex);
 
             SavingSystem.Instance.Load(SavingSystem.defaultSaveFile);
@@ -36,6 +37,8 @@ namespace Toxin.SceneManagement
             LabDoor otherDoor = GetOther();
             print("Using Door: " + otherDoor.name);
             UpdatePlayer(otherDoor);
+
+            SavingSystem.Instance.Save(SavingSystem.defaultSaveFile);
 
             yield return StartCoroutine(Fader.Instance.FadeIn(loadTime/2));
             

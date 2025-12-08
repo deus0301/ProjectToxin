@@ -1,12 +1,10 @@
 using UnityEngine;
-using Toxin.Core;
 using System.IO;
-using System.Text;
-using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using UnityEditorInternal;
+using UnityEngine.SceneManagement;
+using System.Collections;
+using Toxin.SceneManagement;
 
 namespace Toxin.Saving
 {
@@ -26,13 +24,42 @@ namespace Toxin.Saving
                 Destroy(gameObject);
             }
         }
+
+        void Start()
+        {
+            if(Instance == this)
+            {
+                StartCoroutine(LoadAtStart());
+            }
+        }
+
+        private IEnumerator LoadAtStart()
+        {            
+            yield return Fader.Instance.FadeOut(0.1f);
+            yield return LoadLastScene(defaultSaveFile);
+            yield return Fader.Instance.FadeIn(1);
+        }
+        
+        public IEnumerator LoadLastScene(string saveFile)
+        {
+            Dictionary<string, object> state = LoadFile(saveFile);
+            if (state.ContainsKey("lastSceneBuildIndex"))
+            {
+                int buildIndex = (int)state["lastSceneBuildIndex"];
+                if(buildIndex != SceneManager.GetActiveScene().buildIndex)
+                {
+                    yield return SceneManager.LoadSceneAsync(buildIndex);
+                }       
+            }
+            RestoreState(state);
+        }
+
         public void Save(string saveFile)
         {
             Dictionary<string, object> state = LoadFile(saveFile) ?? new Dictionary<string, object>();
             CaptureState(state);
             SaveFile(saveFile, state);
         }
-
 
         public void Load(string saveFile)
         {
@@ -94,6 +121,8 @@ namespace Toxin.Saving
             {
                 state[entity.GetUniqueIdentifier()] = entity.CaptureState();
             }
+
+            state["lastSceneBuildIndex"] = SceneManager.GetActiveScene().buildIndex;
         }
         
         public string GetPathFromSaveFile(string saveFile)

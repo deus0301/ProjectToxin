@@ -1,11 +1,12 @@
 using UnityEngine;
 using Toxin.Saving;
-using Unity.VisualScripting;
 using TMPro;
+using Toxin.Interaction;
+using System.Collections;
 
 namespace Toxin.Core
 {
-    public class Beacon : MonoBehaviour
+    public class Beacon : MonoBehaviour, IInteractable
     {
         [SerializeField] private float saveRadius;
         [SerializeField] private LayerMask beaconLayer;
@@ -33,7 +34,7 @@ namespace Toxin.Core
         {
             if (_frameInput.Load)
             {
-                SavingSystem.Instance.Load(SavingSystem.defaultSaveFile);
+                StartCoroutine(SavingSystem.Instance.LoadLastScene(SavingSystem.defaultSaveFile));
             }
         }
 
@@ -59,9 +60,15 @@ namespace Toxin.Core
             savePrompt.enabled = true;
             if (_frameInput.Save)
             {
-                SavingSystem.Instance.Save(SavingSystem.defaultSaveFile);
-                loadPrompt.enabled = true;
+                StartCoroutine(Interact());
             }
+        }
+
+        public IEnumerator Interact()
+        {
+            SavingSystem.Instance.Save(SavingSystem.defaultSaveFile);
+            yield return null;
+            loadPrompt.enabled = true;
         }
     }
 }
